@@ -1,5 +1,9 @@
 describe('Logs in with incorrect data', () => {
 
+    beforeEach(() => {
+        cy.viewport(1920, 1080)
+    })
+    
     it('Visits the login page', () => {
         cy.visit('/')
     })
